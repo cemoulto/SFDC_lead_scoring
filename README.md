@@ -9,8 +9,9 @@ Simple lead scoring formula for Salesforce
 
 ## Pro Tips
 
-- While the formula attached only includes Clearbit data, don't forget to include non-clearbit fields like **lead source** to make the formula even more effective.
+- While the formula attached only includes Clearbit data, don't forget to include non-clearbit fields like _lead source_ to make the formula even more effective.
 - If you want to take this one step further, you can use the process builder to perform actions based on your new lead score - you can even route inbound leads to specific reps automatically.
+- Clearbit field ids can get quite long, don't forget to use the _Insert Field_ button above the formula edit text area to search through available fields and add them to the formula with a click.
 
 
 
