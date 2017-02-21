@@ -1,0 +1,13 @@
+(
+CASE(cbit__Clearbit__r.cbit__CompanyType__c, "public", 5,0)
++
+CASE( cbit__Clearbit__r.cbit__CompanyGeoCountryCode__c , "US", 10, 0)
++
+CASE( cbit__Clearbit__r.cbit__CompanyMetricsEmployeesRange__c, "1000+", 7, "251-1000", 8, "51-250", 10, "11-50", 4, "1-10", 2, 0)
++
+IF(CONTAINS( cbit__Clearbit__r.cbit__CompanyTech__c , "salesforce"), 10,
+IF(CONTAINS( cbit__Clearbit__r.cbit__CompanyTech__c , "marketo"), 8,
+IF(CONTAINS( cbit__Clearbit__r.cbit__CompanyTech__c , "google_analytics"), 6,0)))
+)
+/
+35
